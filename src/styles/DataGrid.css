@@ -1,0 +1,6 @@
+.MuiTablePagination-selectLabel {
+    margin-bottom: 0; /* Override default margin */
+}
+.MuiTablePagination-displayedRows{
+    margin-bottom: 0; /* Override default margin */
+}

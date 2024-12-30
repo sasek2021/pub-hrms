@@ -1,0 +1,20 @@
+.nav-link {
+    transition: background-color 0.3s ease; /* Smooth transition */
+}
+
+.nav-link:hover {
+    background-color: rgba(255, 255, 255, 0.1); /* Change this to your desired hover color */
+}
+
+.nav-link.active {
+    background-color: rgba(255, 255, 255, 0.2); /* Change this to your desired active color */
+}
+
+/* Specific styles for links inside the accordion */
+.accordion-body .nav-link:hover {
+    color: #ccc !important; /* Change this to your desired hover color */
+}
+
+.accordion-body .nav-link.active {
+    color: #3498db !important; /* Change this to your desired active color */
+}

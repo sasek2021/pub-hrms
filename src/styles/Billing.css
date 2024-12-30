@@ -1,0 +1,65 @@
+/* Billing.css */
+
+.billing-container {
+    padding: 20px;
+    background-color: #f8f9fa;
+    border-radius: 5px;
+}
+
+.billing-form {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.billing-form input, .billing-form textarea {
+    margin-bottom: 10px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.billing-form button {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.billing-form button:hover {
+    background-color: #218838;
+}
+
+.billing-list {
+    margin-top: 20px;
+}
+
+.billing-list ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.billing-list li {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    background-color: #e9ecef;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+
+.delete-btn {
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.delete-btn:hover {
+    background-color: #c82333;
+}

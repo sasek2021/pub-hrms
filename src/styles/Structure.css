@@ -1,0 +1,46 @@
+/* Structure.css */
+
+.structure-container {
+    padding: 20px;
+    background-color: #f8f9fa;
+    border-radius: 5px;
+}
+
+.structure-list {
+    display: flex;
+    flex-direction: column;
+}
+
+.department {
+    margin: 15px 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #ffffff;
+}
+
+h2 {
+    margin-bottom: 20px;
+}
+
+h3 {
+    margin-bottom: 10px;
+    color: #007bff;
+}
+
+.team-list {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.team {
+    padding: 5px;
+    background-color: #e9ecef;
+    border-radius: 3px;
+    margin: 5px 0;
+    transition: background-color 0.3s;
+}
+
+.team:hover {
+    background-color: #d6d6d6;
+}

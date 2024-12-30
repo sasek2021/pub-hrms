@@ -1,0 +1,32 @@
+/* TimeAttendance.css */
+
+.time-attendance-container {
+    padding: 20px;
+    background-color: #f8f9fa;
+    border-radius: 5px;
+}
+
+.clock-section {
+    margin-bottom: 20px;
+}
+
+button {
+    padding: 10px 15px;
+    cursor: pointer;
+}
+
+.attendance-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.attendance-table th,
+.attendance-table td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: left;
+}
+
+.attendance-table th {
+    background-color: #f2f2f2;
+}
